@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, interactive-widget=resizes-content" name="viewport">
-  <link rel="icon" type="image/jpg" href="favicon.jpg">
+  <link rel="icon" href="favicon.png" type="image/png">
 
   <style>
 html{ width:100%; height:100%; height: -webkit-fill-available; font-size: 14px; }
@@ -47,7 +47,7 @@ textarea::placeholder { color: #505050; opacity: 0.5; }
 
 .emoji:active, .selected { background-color: #505050; color: #c0c0c0; }
 .noselect { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-user-select: none; }
-.nodrag { -webkit-user-drag: none; -khtml-user-drag: none; -moz-user-drag: none; -o-user-drag: none; -ms-user-drag: none; user-drag: none; }
+.nodrag { -webkit-user-drag: none; -khtml-user-drag: none; -moz-user-drag: none; -o-user-drag: none; -ms-user-drag: none;}
 
   </style>
 
@@ -391,9 +391,8 @@ textarea::placeholder { color: #505050; opacity: 0.5; }
           <div class="header">AVATAR:</div>
           <div class="header">
             <select id="url">
-              <option value="https://models.readyplayer.me/64bfa15f0e72c63d7c3934a6.glb?morphTargets=ARKit,Oculus+Visemes,mouthOpen,mouthSmile,eyesClosed,eyesLookUp,eyesLookDown&textureSizeLimit=1024&textureFormat=png" selected>Brunette</option>
-              <option value="https://models.readyplayer.me/651c4799dab353c63565c6fe.glb?morphTargets=ARKit,Oculus+Visemes,mouthOpen,mouthSmile,eyesClosed,eyesLookUp,eyesLookDown&textureSizeLimit=1024&textureFormat=png">Blonde</option>
-            </select>
+              <option value="./models/face.glb" selected>My Model Name</option>
+          </select>
           </div>
         </div>
         <div class="container" style="flex-direction: column">
@@ -440,7 +439,7 @@ textarea::placeholder { color: #505050; opacity: 0.5; }
       <div class="header"></div>
       <div class="header">LIP-SYNC TESTER:</div>
       <div id="text">
-        <textarea placeholder="Puhun suomea / I speak Finnish."></textarea>
+        <textarea placeholder="I speak English / मैं हिंदी बोलता हूँ"></textarea>
       </div>
       <div id="textemojis" class="noselect nodrag"></div>
       <div class="header"></div>
